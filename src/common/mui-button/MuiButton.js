@@ -15,8 +15,9 @@ export default function MuiButton(props) {
   const classes = useStyles();
   const { children, ...rest } = props;
 
+
   return (
-    <Button variant="contained" className={classes.root} {...rest}>
+    <Button id="button" variant="contained" className={`mui-button ${classes.root}`} {...rest}>
      {children}
     </Button>
   );

@@ -1,7 +1,7 @@
 
 import { red } from '@material-ui/core/colors';
-import { cyan } from '@material-ui/core/colors';
-import { teal } from '@material-ui/core/colors';
+// import { cyan } from '@material-ui/core/colors';
+// import { teal } from '@material-ui/core/colors';
 import { createMuiTheme } from '@material-ui/core/styles';
 
 //TODO:
@@ -17,10 +17,28 @@ export const theme1 = createMuiTheme({
       error: {
         main: red.A400,
       },
-      // backgroundColor: {
-      //   default: '#aebfbe',
-      // },
+      backgroundColor: {
+        default: '#43aeae',
+      },
     },
+    typography: {
+      button: {
+        fontFamily: 'RalewayMedium',
+        textTransform: 'none'
+      },
+      body1: {
+        fontFamily: 'RalewayLight'
+      },
+      h1: {
+        fontFamily: 'RalewayBlack'
+      },
+      h2: {
+        fontFamily: 'RalewayBold'
+      },
+      caption: {
+        fontFamily: 'RalewayLight'
+      }
+    }
   });
   
   //TODO: theme two if needed 

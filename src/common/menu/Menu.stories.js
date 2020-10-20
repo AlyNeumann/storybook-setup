@@ -6,4 +6,4 @@ export default {
   component: Menu
 };
 
-export const Profile = () => <Menu color="primary"></Menu>;
+export const Combined = () => <Menu color="primary"></Menu>;

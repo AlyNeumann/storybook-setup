@@ -7,7 +7,7 @@
     "@material-ui/icons": "^4.9.1",
     "@storybook/theming": "^6.0.26",
     "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
+    "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^7.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
+    "storybook": "start-storybook -p 6006 -c .storybook watch-css -s ./src",
     "build-storybook": "build-storybook -s public"
   },
   "eslintConfig": {
@@ -49,6 +49,9 @@
     "@storybook/preset-create-react-app": "^3.1.4",
     "@storybook/react": "^6.1.0-alpha.21",
     "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "react-is": "^16.13.1",
+    "react-test-renderer": "^16.14.0"
   }
 }

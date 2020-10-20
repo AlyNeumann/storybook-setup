@@ -7,6 +7,11 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import { createMuiTheme } from '@material-ui/core/styles';
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { theme1, theme2 } from './theme/theme';
+import './fonts/Raleway-Black.ttf';
+import './fonts/Raleway-Light.ttf';
+import './fonts/Raleway-ExtraLight.ttf';
+import './fonts/Raleway-Medium.ttf';
+import './fonts/Raleway-Bold.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
